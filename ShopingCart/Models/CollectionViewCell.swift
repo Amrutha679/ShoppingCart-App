@@ -13,13 +13,13 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textLabel: UILabel!
     
+    //static let identifier = "CollectionViewCell"
     override func awakeFromNib() {
-        super.awakeFromNib()
+      //  super.awakeFromNib()
         // Initialization code
     }
-    func configure(with image5: UIImage) {
+  public func configure(_ image: UIImage) {
         
-        imageView.image = image5
+    self.imageView.image = image
     }
-
 }
