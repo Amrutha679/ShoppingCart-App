@@ -16,28 +16,22 @@
                 <rect key="frame" x="0.0" y="0.0" width="340" height="279"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wgs-Is-bhy">
-                        <rect key="frame" x="0.0" y="0.0" width="340" height="229"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jvv-u5-tkF">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="279"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="one" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78z-OO-xXX">
-                        <rect key="frame" x="12" y="238" width="187" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                 </subviews>
             </view>
             <color key="backgroundColor" red="0.92789659189999996" green="0.94232637090000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="Wgs-Is-bhy" secondAttribute="trailing" id="AR8-rl-ozY"/>
-                <constraint firstItem="Wgs-Is-bhy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Iul-NJ-Rs5"/>
-                <constraint firstItem="Wgs-Is-bhy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Mvk-zj-0VO"/>
+                <constraint firstItem="jvv-u5-tkF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="BTh-I3-Xh5"/>
+                <constraint firstAttribute="bottom" secondItem="jvv-u5-tkF" secondAttribute="bottom" id="HVi-uu-hum"/>
+                <constraint firstItem="jvv-u5-tkF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="eXz-RZ-vkM"/>
+                <constraint firstAttribute="trailing" secondItem="jvv-u5-tkF" secondAttribute="trailing" id="wZ2-OQ-CyP"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="340" height="279"/>
             <connections>
-                <outlet property="imageView" destination="Wgs-Is-bhy" id="Ai1-Dw-LOa"/>
+                <outlet property="imageView" destination="jvv-u5-tkF" id="86V-J0-swX"/>
             </connections>
             <point key="canvasLocation" x="218.84057971014494" y="-22.433035714285712"/>
         </collectionViewCell>
